@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+#ct, {
+    width: 174px;
+}
+#ct ul li a {
+	width: 161px;
+}
+
+#syllabus {
+  width: 129px;
+}
+
+#physics {
+  width: 87px;
+}
+#physics ul li a{
+  width: 56px;
+}
+
+#criteria ul li a {
+  white-space: normal;
+  width: 143px;
+}
+#criteria {
+  width: 174px;
+}
+
+#papers ul li a {
+  white-space: normal;
+  width: 100px;
+}
+#papers {
+  width: 131px;
+}
+#quiznav {
+  width: 160px;
+}
+#radioactivitynav:hover {
+  width: 110px;
+}
+#download {
+  width: 111px;
+}

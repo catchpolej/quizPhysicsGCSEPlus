@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Energy Quiz</title>
+<link rel="stylesheet" type="text/css" href="../styles/quiz.css">
+<link rel="stylesheet" type="text/css" href="../styles/list.css">
+<link rel="stylesheet" type="text/css" href="../styles/navigation.css">
+<link rel="stylesheet" type="text/css" href="../styles/safari.css">
+<link rel="stylesheet" type="text/css" href="../styles/default.css">
+
+<script type="text/javascript" src="../scripts/quiz.js"></script>
+<script type="text/javascript" src="hint.js"></script>
+<script type="text/javascript" src="../scripts/nav.js"></script>
+
+</head>
+
+
+<body>
+<div id="all">
+  <div id="sidebar1"></div>
+  <div id="navtop" class="enernav">
+<p><a href="#Top" id="goToTop">Top</a></p>
+<P><A HREF="#Energy Transfer">Energy Transfer</A></p>
+<P><A HREF="#Conservation of Energy">Conservation of Energy</A></p>
+<P><A HREF="#Work Done and Power">Work Done and Power</A></p>
+<P><A HREF="#K.E. and P.E.">K.E. and P.E.</A></p>
+<P><A HREF="#Heat Transfer">Heat Transfer</A></p>
+<P><A HREF="#Conduction">Conduction</A></p>
+<P><A HREF="#Convection">Convection</A></p>
+<P><A HREF="#Radiation">Radiation</A></p>
+<P><A HREF="#Applications of Heat Transfer">Applications of Heat Transfer</A></p>
+<P><A HREF="#Insulating Buildings">Insulating Buildings</A></p>
+<P><A HREF="#Energy Resources">Energy Resources</A></p>
+<P><A HREF="#Non-Renewable Energy">Non-Renewable Energy</A></p>
+<P><A HREF="#Renewable Energy">Renewable Energy</A></p>
+<P><A HREF="#Extra Questions">Extra Questions</A></p>
+<p><a href="#bottom">Bottom</a></p>
+</div>
+
+<div id="title">
+<A NAME="Top"></A>
+  <div id="titletext">
+    <h1>GCSE Energy quiz - by J Catchpole</h1>
+  </div>
+
+  <div id="nav">
+  <ul>
+    <li id="quiznav"><a href="#">Other Quizzes</a>
+        <ul>
+          <li><a href="../elec/index.html">Electricity</a></li>
+          <li><a href="../ener/index.html">Energy</a></li>
+          <li><a href="../forc/index.html">Forces</a></li>
+          <li><a href="../radi/index.html" id="radioactivitynav">Radioactivity</a></li>
+          <li><a href="../magn/index.html">Magnetism</a></li>
+          <li><a href="../spac/index.html">Space</a></li>
+          <li><a href="../wave/index.html">Waves</a></li>
+        </ul>
+        </li>
+  </ul>
+  </div>
+
+</div>
+
+<div id="container">
+
+
+  <div id="content" class="cont">
+
+    <A NAME="Energy Transfer"></A>
+<H2>Energy Transfer </H2>
+<P>
+
+
+<P>
+1.) What is the SI (metric) unit of energy?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Kelvin.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Ampere.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Watt.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  Joule.
+
+</P><P><INPUT onclick=Hint01() type=button value=" HINT " ></P></FORM>  
+<P>
+2.) Some forms of energy are known as stored energy because they do not do any work.  Which of the following is NOT a form of stored energy?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Gravitational Potential Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Elastic Potential Energy.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  Electrical Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Chemical Energy.
+
+</P><P><INPUT onclick=Hint02() type=button value=" HINT " ></P></FORM>
+
+<P>
+3.) What is the main type of energy that an ice skater has when spinning over the same spot at high speed?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Sound Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Chemical Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Potential Energy.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  Kinetic Energy.
+
+</P><P><INPUT onclick=Hint03() type=button value=" HINT " ></P></FORM>
+<P>
+4.) What is the main energy change, taking place in the microphone of a tape recorder? 
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  Sound Energy to Electrical Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Electrical Energy to Chemical Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Electrical Energy to Sound Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Chemical Energy to Electrical Energy.
+
+</P><P><INPUT onclick=Hint04() type=button value=" HINT " ></P></FORM>
+<P>
+5.) Which of the following is NOT designed to convert kinetic energy into electrical energy?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  A Loudspeaker.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  A Bicycle Dynamo.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  A Power Station Generator.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  A Wind Turbine and Generator.
+
+</P><P><INPUT onclick=Hint05() type=button value=" HINT " ></P></FORM>  
+<P>
+6.) What energy changes are involved when you talk on the telephone?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Sound Energy -> Thermal Energy -> Sound Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Sound Energy -> Chemical Energy -> Electrical Energy.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  Sound Energy -> Electrical Energy -> Sound Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Sound Energy -> Kinetic Energy -> Potential Energy.
+
+</P><P><INPUT onclick=Hint06() type=button value=" HINT " ></P></FORM>  
+<P>
+7.) What are the energy changes involved in the generation of electricity from a hydroelectric power station?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Electrical Energy -> Kinetic Energy -> Potential Energy.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  Potential Energy -> Kinetic Energy -> Electrical Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Potential Energy -> Electrical Energy -> Kinetic Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Kinetic Energy -> Potential Energy -> Electrical Energy.
+
+</P><P><INPUT onclick=Hint07() type=button value=" HINT " ></P></FORM>  
+
+ 
+<P>
+<IMG SRC="Images/energy08.jpg">
+<P>
+8.) The diagram shows identical springs being stretched by different forces.  Which spring contains the greatest elastic potential energy?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  A.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  B.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  C.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  D.
+
+</P><P><INPUT onclick=Hint08() type=button value=" HINT " ></P></FORM>  
+
+ 
+<P>
+<IMG SRC="Images/energy09.jpg">
+<P>
+9.) The diagram shows some of the energy changes that occur in a steam engine.  What type of energy is labelled 'X' and 'Y'?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  X - Thermal, Y - Chemical.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  X - Chemical, Y - Kinetic.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  X - Kinetic, Y - Thermal.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  X - Thermal, Y - Kinetic.
+
+</P><P><INPUT onclick=Hint09() type=button value=" HINT " ></P></FORM>
+
+ 
+<P>
+<IMG SRC="Images/energy10.jpg">
+<P>
+10.)  The diagram shows a reservoir used for storing water for use in a hydroelectric power station.  What type of energy does the water have at the position labelled 'X'?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Elastic Potential Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Wave Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Kinetic Energy.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  Gravitational Potential Energy.
+
+</P><P><INPUT onclick=Hint10() type=button value=" HINT " ></P></FORM>
+
+ 
+<P>
+<IMG SRC="Images/energy11.jpg">
+<P>
+11.)  Study the diagram carefully.  When a hydroelectric power station requires water for its generators, the water will flow down the pipeline.  What form of energy does the water have at the point labelled 'Y'?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Gravitational Potential Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Kinetic Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Elastic Potential Energy and Kinetic Energy.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  Gravitational Potential Energy and Kinetic Energy.
+
+</P><P><INPUT onclick=Hint11() type=button value=" HINT " ></P></FORM>
+<P>
+12.)  Which of the following statements is NOT true about energy types?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Nuclear energy is released from nuclear reactions.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Radiant heat energy is given out by hot objects as infrared.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  Elastic potential energy is possessed by anything which can fall.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Chemical energy is a form of stored energy, such as food, fuels and batteries.
+
+</P><P><INPUT onclick=Hint12() type=button value=" HINT " ></P></FORM>
+
+
+
+
+
+<A NAME="Conservation of Energy"></A>
+<H2>Conservation of Energy </H2>
+<P>
+
+
+
+
+
+<P>
+13.)  What does the law of conservation of energy state?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  Energy cannot be made or destroyed, but it can be changed from one form to another.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Energy can be created or destroyed, but it cannot be changed from one form to another.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Energy cannot be made or destroyed, nor can it be changed from one form to another.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Energy can be created or destroyed, and it can be changed from one form to another.
+
+</P><P><INPUT onclick=Hint13() type=button value=" HINT " ></P></FORM>
+<P>
+14.)  Which of the following statements is NOT true about energy?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Energy is only useful when it is converted from one form to another.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  All energy transfers involve some losses.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Wasted energy is mostly dissipated as heat and sound.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  The more energy that is wasted, the more efficient the device is.
+
+</P><P><INPUT onclick=Hint14() type=button value=" HINT " ></P></FORM>
+
+ 
+<P>
+<IMG SRC="Images/energy15.jpg">
+<P>
+15.)  The diagram shows some of the energy wasted when electricity is transferred from a battery to a motor.  What does 'X' represent?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Potential Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Light Energy.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  Thermal Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Elastic Energy.
+
+</P><P><INPUT onclick=Hint15() type=button value=" HINT " ></P></FORM>
+<P>
+16.)  Which of the following statements is NOT true about the efficiency of machines?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  A machine is a device which turns one type of energy into another.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  A device can be more than 100% efficient.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  No device can be 100% efficient.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Efficiency can be calculated by dividing the 'Energy output' by the 'Energy Input'.
+
+</P><P><INPUT onclick=Hint16() type=button value=" HINT " ></P></FORM>
+<P>
+17.)  An electric winch uses 5,000J of energy to lift up a heavy object.  If the object gains 3,000J of potential energy, what is the efficiency of the winch?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  60%
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  16%
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  1.67%
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  0.6%
+
+</P><P><INPUT onclick=Hint17() type=button value=" HINT " ></P></FORM>
+<P>
+18.)  An electric kettle has 180,000J of energy supplied to it and it gives out 9,000J of heat to the room.  What is the efficiency of the kettle?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  5%
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  20%
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  95%
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  105%
+
+</P><P><INPUT onclick=Hint18() type=button value=" HINT " ></P></FORM> 
+<P>
+
+
+
+<P>
+<A NAME="Work Done and Power"></A>
+<H2>Work Done and Power</H2>
+<P>
+
+
+<P>
+19.)  When a force moves an object, energy is transferred and work is done.  What is the SI (metric) unit of work?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  Joule.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Watt.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Newton.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Volt.
+
+</P><P><INPUT onclick=Hint19() type=button value=" HINT " ></P></FORM>
+<P>
+20.)  A man lifts a 53N box a distance of 25m.  How much work does he do, lifting the box?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  78 J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  28 J.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  1325 J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  2.12 J.
+
+</P><P><INPUT onclick=Hint20() type=button value=" HINT " ></P></FORM>
+<P>
+21.)  What is power measured in?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Joules (Joule = Energy transferred).
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  Watts (1 Watt = 1 Joule of energy transferred per second).
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Amperes (1 Amp = 1 Coulomb of charge per seond).
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Volts (Volt = Energy transfered per coulomb)
+
+</P><P><INPUT onclick=Hint21() type=button value=" HINT " ></P></FORM>
+<P>
+22.)  A light bulb transfers 18KJ of energy in 5 minutes (300 seconds).  What power rating does the bulb have?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  60 Watt.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  3.6 Watt.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  0.06 Watt.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  3600 Watt.
+
+</P><P><INPUT onclick=Hint22() type=button value=" HINT " ></P></FORM>
+<P>
+
+
+<P>
+<A NAME="K.E. and P.E."></A> 
+<H2>K.E. and P.E. </H2>
+<P>
+
+
+
+<P>
+23.)  Which of the following statements is NOT true about kinetic energy?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Anything which is moving has kinetic energy.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  The kinetic energy of something depends on its height.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  The kinetic energy of something depends on its mass.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  The kinetic energy of something depends on its speed.
+
+</P><P><INPUT onclick=Hint23() type=button value=" HINT " ></P></FORM>
+
+<P>
+24.)  A body having a mass of 15Kg travels at a velocity of 30m/s.  What is its kinetic energy?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  6750 Joules.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  225 Joules.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  45 Joules.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  2 Joules.
+
+</P><P><INPUT onclick=Hint24() type=button value=" HINT " ></P></FORM>
+<P>
+25.)  Which of the following statements is NOT true about gravitational potential energy?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Gravitational potential energy is due to height.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  The gravitational potential energy of something depends on its mass.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  The gravitational potential energy of something depends on its height.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  The gravitational potential energy of something depends on its speed.
+
+</P><P><INPUT onclick=Hint25() type=button value=" HINT " ></P></FORM>
+<P>
+26.)  A car at a scrap yard is raised to a height of 18m.  If it gains 270KJ of potential energy, what is its mass?
+(assume g is 10N/kg)
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  1.5Kg.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  48600Kg.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  2000Kg.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  1500Kg.
+
+</P><P><INPUT onclick=Hint26() type=button value=" HINT " ></P></FORM>
+<P>
+27.)  A person with mass 54Kg runs upstairs in 12 seconds.  If the vertical height of the stairs is 9m, what is the power output of the person?
+(assume g is 10N/kg)
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  405 Watts.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  40.5 Watts.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  486 Watts.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  4860 Watts.
+
+</P><P><INPUT onclick=Hint27() type=button value=" HINT " ></P></FORM>
+<P>
+28.)  A ball falls from the top of a building. The statements show, in order, the ball's gravitational potential energy and its kinetic energy as it falls; which statement is incorrect?
+(assume air resistance has little effect)
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  P.E. = 6000J, K.E. = 0J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  P.E. = 4000J, K.E. = 2000J.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  P.E. = 3000J, K.E. = 4000J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  P.E. = 0J, K.E. = 6000J.
+
+</P><P><INPUT onclick=Hint28() type=button value=" HINT " ></P></FORM>
+<P>
+29.)  A ball is dropped from a cliff which is 26.5 metres above the sea.  If the acceleration due to gravity is 10m/s², at what velocity will the ball hit the water?  Assume that there are no energy losses and that all the potential energy is converted to kinetic energy.
+(HARD QUESTION)
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  12m/s.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  23m/s.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  133m/s.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  530m/s.
+
+</P><P><INPUT onclick=Hint29() type=button value=" HINT " ></P></FORM>
+<P>
+30.)  A ball is dropped from a height of 2 metres above the ground.  Just after the first bounce, 25% of the energy has dissipated in the bounce.  What height will the ball reach after the first bounce?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  0.5 metres.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  1.0 metres.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  1.5 metres.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  2 metres.
+
+</P><P><INPUT onclick=Hint30() type=button value=" HINT " ></P></FORM>
+<P>
+
+
+<P>
+<A NAME="Heat Transfer"></A>
+<H2>Heat Transfer</H2>
+<P>
+
+<P>
+31.)  Which of the following statements is NOT true about heat energy?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Heat energy causes gas and liquid molecules to move around faster.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Heat energy causes particles in solids to vibrate more rapidly.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  When particles move faster, it shows up as a rise in temperature.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  If there is a difference in temperature between two places, then no heat will flow between them.
+
+</P><P><INPUT onclick=Hint31() type=button value=" HINT " ></P></FORM>
+<P>
+32.)  There are three (or four) different methods of heat transfer.  Which of the following is NOT one of them?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  Nuclear Radiation.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Conduction.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Convection.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Heat Radiation.
+
+</P><P><INPUT onclick=Hint32() type=button value=" HINT " ></P></FORM>
+<P>
+33.)  When energy is supplied to a substance, it often causes the temperature to rise.  The particles of which the substance is made then have more kinetic energy.  What happens to the internal energy of the substance in this instance?
+(This is an IB question!)
+</P><FORM><P><INPUT onclick=AlertBox3() type=button value="a" >  It stays the same.
+</P><P><INPUT onclick=AlertBox3() type=button value="b" >  It decreases.
+</P><P><INPUT onclick=AlertBox3() type=button value="c" >  It increases.
+</P><P><INPUT onclick=AlertBox3() type=button value="d" >  It increases temporarily then falls.
+
+</P><P><INPUT onclick=Hint33() type=button value=" HINT " ></P></FORM>
+<P>
+34.)  Which of the following statements is NOT true about evaporation?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Heat is lost through evaporation.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  The hottest particles near the surface of a liquid move fast enough to break free from the liquid and evaporate.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Slower, cooler particles left behind, lowers the average energy of the particles in the liquid.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  The cooler liquid takes in heat from its surroundings, thereby heating whatever it is in contact with.
+
+</P><P><INPUT onclick=Hint34() type=button value=" HINT " ></P></FORM>
+
+
+<P>
+<A NAME="Conduction"></A>
+<H2>Conduction</H2>
+<P>
+
+
+<P>
+35.)  Conduction is where vibrating particles gradually pass on some of their extra vibration energy to neighbouring particles.  This process continues until all the heat energy is distributed throughout the solid.  Which of the following statements is NOT true?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  Energy always flows from areas of low, to areas of high temperature.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Gasses conduct only when molecules collide, making them very poor conductors.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Non metal solids and liquids are poor conductors.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Metals contain free electrons that transfer energy quickly from one part of the metal to another.
+
+</P><P><INPUT onclick=Hint35() type=button value=" HINT " ></P></FORM>
+
+<P>
+36.)  John steps with bare feet onto a wool rug.  He then steps onto a tiled floor.  Why does the tiled floor feel colder than the wool rug?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  The tiles are shinier than the wool.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  The tiles are harder than the wool.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  The tiles are better at conducting heat than the wool.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  The tiles are worse at conducting heat than the wool.
+
+</P><P><INPUT onclick=Hint36() type=button value=" HINT " ></P></FORM>
+<P>
+37.)  Refrigerators usually have a layer of polystyrene between the inner and outer walls.  What is the purpose of the polystyrene?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  To prevent heat leaving by conduction.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  To prevent heat entering by conduction.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  To prevent heat entering by radiation.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  To prevent heat leaving by radiation.
+
+</P><P><INPUT onclick=Hint37() type=button value=" HINT " ></P></FORM>
+
+ 
+<P>
+<IMG SRC="Images/energy38.jpg">
+<P>
+38.)  The diagram shows a device used to make potatoes bake more quickly in an oven.  It consists of four metal prongs, each of which can have a potato pushed onto it.  Which of the following is a good explanation of the way the device works?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  The metal prong is a good electrical conductor.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  The potato is raised up by the prong, increasing its potential energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  The inside of the potato is compressed by the prong.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  The metal prong gets hotter than the oven.
+
+</P><P><INPUT onclick=Hint38() type=button value=" HINT " ></P></FORM>
+
+ 
+<P>
+<IMG SRC="Images/energy39.jpg">
+<P>
+39.)  The apparatus in the diagram was used to heat water and ice.  The water at the top of the tube is boiling, but the water at the bottom of the tube stays quite cool.  What is the most likely reason for this?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Wire gauze is a good conductor of heat.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Hot water radiates heat energy.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  Water is a bad conductor of heat.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Water transports heat by convection.
+
+</P><P><INPUT onclick=Hint39() type=button value=" HINT " ></P></FORM>
+
+
+<P>
+<A NAME="Convection"></A>
+<H2>Convection</H2>
+<P>
+
+
+
+<P>
+40.)  Convection is the process of the transfer of heat in a fluid by the movement of the fluid itself.  Where can this occur?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Only in gasses.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  In solids and liquids.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  In liquids and gasses.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Only in liquids.
+
+</P><P><INPUT onclick=Hint40() type=button value=" HINT " ></P></FORM>
+
+ 
+<P>
+<IMG SRC="Images/energy41.jpg">
+<P>
+41.)  The diagram shows a natural convection current for an onshore breeze created in the day.  There are four points labelled 'A' to 'D'.  Which of the following statements does NOT apply to the corresponding point?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  The land heats up quickly in the Sun and heats the air above it.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  The heated air expands and becomes less dense, and therefore rises.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  Hot air rushes in to replace the rising warm air, creating an onshore sea breeze.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  As air cools, it contracts, becomes more dense and falls.
+
+</P><P><INPUT onclick=Hint41() type=button value=" HINT " ></P></FORM>
+<P>
+42.)  Natural convection produces ocean currents.  Which of the following statements is NOT true?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Near the equator, the ocean is heated most strongly by the Sun.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  The warmed water expands slightly, becomes less dense and rises to the surface.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  It then pushes outwards to be replaced by more warmed water pushing up from underneath.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  These warm surface currents only travel a few metres.
+
+</P><P><INPUT onclick=Hint42() type=button value=" HINT " ></P></FORM>
+<P>
+43.)  Forced convection is where you have a fan or a pump making fluid move around much faster.  This enables heat to be transferred much faster than the natural convection currents would.  Which of the following is NOT an example of forced convection?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  A car engine water pump pushes the water around quickly to transfer heat away from the engine and into the radiator.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Cooling fans blow air over people or hot objects to cool them down, by convecting the heat away.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  Radiators force hot air up and around the room, setting up a convection current.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Fan heaters blow air around the room much quicker than natural convection currents would.
+
+</P><P><INPUT onclick=Hint43() type=button value=" HINT " ></P></FORM>
+
+
+<P>
+<A NAME="Radiation"></A>
+<H2>Radiation</H2>
+<P>
+
+<P>
+44.)  How does the infrared radiation that provides us with heat from the Sun, reach the Earth?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  By conduction and radiation.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  By radiation only.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  By convection and radiation.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  By conduction and convection.
+
+</P><P><INPUT onclick=Hint44() type=button value=" HINT " ></P></FORM>
+<P>
+45.)  Heat radiation is the transfer of energy purely by electromagnetic waves.  Which of the following statements is NOT true?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Heat radiation travels in straight lines at the speed of light.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  Heat radiation will pass through any media (material).
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Heat radiation will travel through a vacuum.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  All objects continually emit and absorb heat radiation, but the hotter an object is, the more energy it will radiate.
+
+</P><P><INPUT onclick=Hint45() type=button value=" HINT " ></P></FORM>
+<P>
+46.)  If you stand close enough to a bonfire, you can feel the heat on your skin.  How does this heat travel to you?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  By conduction.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  By convection.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  By diffusion.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  By radiation.
+
+</P><P><INPUT onclick=Hint46() type=button value=" HINT " ></P></FORM>
+<P>
+47.)  Leslie's cube is a thin walled, hollow cube with different outside surfaces.  It is filled with hot water and then used to show that surfaces vary in their ability to radiate and absorb heat energy.  Which of the following gives the correct order of surfaces, starting with the best radiator of heat energy, decreasing to the worst?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Gloss black surface, Matt black surface, Gloss white surface, Polished metal surface.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  Matt black surface, Gloss black surface, Gloss white surface, Polished metal surface.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Gloss white surface, Polished metal surface, Gloss black surface, Matt black surface.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Polished metal surface, Gloss white surface, Gloss black surface, Matt black surface.
+
+</P><P><INPUT onclick=Hint47() type=button value=" HINT " ></P></FORM>
+<P>
+48.)  There are two test tubes containing water and a thermometer water.  Bulb ‘X’ is painted black.  When the tubes are placed in bright sunshine, the temperature of bulb 'X' increases well above that of bulb 'Y'.  What could you conclude about bulb 'Y' from this?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  It is open to the air.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  It is painted black.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  It is painted silver.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  It is painted black and polished.
+
+</P><P><INPUT onclick=Hint48() type=button value=" HINT " ></P></FORM>
+<P>
+49.)  When your body is wrapped in silver foil, you immediately feel warmer.  Which is the most important reason for this?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  The foil keeps the cold air away.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  The foil absorbs heat from the surroundings.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  The foil reflects the heat radiated by your body.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  The foil is a good absorber of heat radiation.
+
+</P><P><INPUT onclick=Hint49() type=button value=" HINT " ></P></FORM>
+
+
+
+<P>
+<A NAME="Applications of Heat Transfer"></A>
+<H2>Applications of Heat Transfer</H2>
+<P>
+
+
+
+
+<P>
+50.)  Which of the following statements are NOT true about good conductors and good insulators?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  All metals are good conductors.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  All non metals are good insulators.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  Gasses and liquids are very good conductors.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Trapped pockets of air will prevent convection, but heat will still slowly conduct through.
+
+</P><P><INPUT onclick=Hint50() type=button value=" HINT " ></P></FORM>
+<P>
+51.)  Which type of insulation reduces the amount of radiation leaving an object?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Trapped pocket of air around the object.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  A vacuum around the object.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  Silvered finish.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Matt black finish.
+
+</P><P><INPUT onclick=Hint51() type=button value=" HINT " ></P></FORM>
+<P>
+52.)  Silvered finishes are highly effective insulation against heat transfer by radiation.  Which of the following does not use a silvered finish to reduce heat radiation?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  Greenhouse.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Spacesuit.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Cooking foil around the Christmas turkey.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Thermos flask.
+
+</P><P><INPUT onclick=Hint52() type=button value=" HINT " ></P></FORM>
+<P>
+53.)  Silvered finishes are highly effective insulation against heat transfer by radiation.  Which of the following does not use a silvered finish to reduce heat radiation?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Metal kettle.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Survival blanket.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Thermos flask.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  A radiator on a car engine.
+
+</P><P><INPUT onclick=Hint53() type=button value=" HINT " ></P></FORM>
+<P>
+54.)  A thermos flask is a device used to keep a liquid at the same temperature, as when it was put into the flask.  It consists of a double walled glass bottle with a thin vacuum between the two walls.  The walls either side of the vacuum are silvered and the stopper is made from plastic, which is filled with cork or foam.  Which of the statements is NOT true about how the insulation works?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Conduction and convection through the sides of the flask are prevented by the vacuum.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  The silvered walls minimise heat loss by radiation.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  The vacuum stops heat getting in or out.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  The plastic stopper filled with cork or foam reduces any heat conduction through the top of the flask.
+
+</P><P><INPUT onclick=Hint54() type=button value=" HINT " ></P></FORM>
+<P>
+55.)  How does a central heating radiator give out most of its heat?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  By convection currents of warm rising air.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  By conduction between the radiator and the air.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  By heat radiation.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  By glowing red.
+
+</P><P><INPUT onclick=Hint55() type=button value=" HINT " ></P></FORM>
+
+
+<P>
+<A NAME="Insulating Buildings"></A>
+<H2>Insulating Buildings</H2>
+<P>
+
+
+
+ 
+<P>
+<IMG SRC="Images/energy56.jpg">
+<P>
+56.)  Study the diagram carefully.  A heating engineer has made some measurements to help decide which kind of heater to use in a room.  Which surface loses heat most quickly per square metre?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  A.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  B.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  C.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  D.
+
+</P><P><INPUT onclick=Hint56() type=button value=" HINT " ></P></FORM>
+
+ 
+<P>
+<IMG SRC="Images/energy57.jpg">
+<P>
+57.)  Study the diagram carefully.  A heating engineer has made some measurements to help decide which kind of heater to use in a room.  Which surface should be insulated to save most energy?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  A.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  B.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  C.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  D.
+
+</P><P><INPUT onclick=Hint57() type=button value=" HINT " ></P></FORM>
+
+58.)  Heat can be lost from a house in many different ways.  Which of the following types of insulation does NOT reduce heat loss through conduction?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Loft Insulation.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Hot Water Tank Jacket.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  Draught Proofing.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Double Glazing.
+
+</P><P><INPUT onclick=Hint58() type=button value=" HINT " ></P></FORM>
+
+59.)  Draught proofing will reduce heat loss by convection.  Which of the following will reduce heat loss by convection the most effectively?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Double Glazing.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Cavity Wall Insulation.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Curtains.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  Loft Insulation.
+
+</P><P><INPUT onclick=Hint59() type=button value=" HINT " ></P></FORM>
+
+60.)  Curtains reduce heat loss primarily by which method of heat transfer?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Conductoin.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Evaporation.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Convection.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  Radiation.
+
+</P><P><INPUT onclick=Hint60() type=button value=" HINT " ></P></FORM>
+
+61.)  How do thermostatic radiator valves reduce heat loss in a house?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  They reduce conduction.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  They reduce convection.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  They reduce radiation.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  They prevent the house from being over heated.
+
+</P><P><INPUT onclick=Hint61() type=button value=" HINT " ></P></FORM>
+
+62.)  Double glazing is often used to insulate houses against heat loss.  What is it that makes double glazing such a good insulator?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  The air trapped between the glass is a poor conductor of heat.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Heat radiation passes through the first sheet of glass, but not the second.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Convection currents between the sheets are restricted.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Glass of double thickness will not conduct heat.
+
+</P><P><INPUT onclick=Hint62() type=button value=" HINT " ></P></FORM>
+
+63.)  Snow on the roof of house 'X' melts much more quickly than on the roof of house 'Y'.  If the temperature in each house is the same, why might this occur?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  The tiles on house ‘Y’ are better radiators than those on house ‘X’.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  House ‘Y’ is heated by oil and house ‘X’ by solid fuel.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  House ‘Y’ has loft insulation and house ‘X’ does not.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  House ‘Y’ has double glazing and house ‘X’ does not.
+
+</P><P><INPUT onclick=Hint63() type=button value=" HINT " ></P></FORM>
+
+
+<P>
+<A NAME="Energy Resources"></A>
+<H2>Energy Resources</H2>
+<P>
+
+
+<P>
+64.)  Which of the following is a non-renewable source of energy?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Solar.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  Oil.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Wave.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Hydroelectric.
+
+</P><P><INPUT onclick=Hint64() type=button value=" HINT " ></P></FORM>
+<P>
+65.)  Which of the following uses a fossil fuel?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Wind turbine.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Solar cell.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Hydroelectric power station.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  Coal fired power station.
+
+</P><P><INPUT onclick=Hint65() type=button value=" HINT " ></P></FORM>
+<P>
+66.)  Non-renewable energy resources provide most of our energy.  Which of the following statements is NOT true?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Natural gas is a fossil fuel.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Uranium is a nuclear fuel that is non-renewable.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  They do not damage the environment.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  All non-renewable energy resources will run out in hundreds of years time.
+
+</P><P><INPUT onclick=Hint66() type=button value=" HINT " ></P></FORM>
+
+ 
+<P>
+<IMG SRC="Images/energy67.jpg">
+<P>
+67.)  Study the table carefully.  It lists the World's recoverable energy reserves of coal, oil and gas, together with their annual consumption in joules.  How long will it take for these reserves to run out?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Oil - 238 years, Gas - 55 years, Coal - 238 years.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  Oil - 58 years, Gas - 55 years, Coal - 238 years.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Oil - 55 years, Gas - 58 years, Coal - 238 years.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Oil - 58 years, Gas - 238 years, Coal - 55 years.
+
+</P><P><INPUT onclick=Hint67() type=button value=" HINT " ></P></FORM>
+<P>
+68.)  There are many different forms of renewable energy.  Two examples are food and biomass (wood).  Which of the following is NOT a renewable source of energy?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  Coal.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Wind power.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Solar power.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Hydroelectric.
+
+</P><P><INPUT onclick=Hint68() type=button value=" HINT " ></P></FORM>
+
+ 
+<P>
+<IMG SRC="Images/energy69.jpg">
+<P>
+69.)  Study the table carefully.  It lists some of the properties of various renewable energy sources.  Which of the options is correct?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  A.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  B.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  C.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  D.
+
+</P><P><INPUT onclick=Hint69() type=button value=" HINT " ></P></FORM>
+<P>
+70.)  Uranium is a nuclear fuel, which does not depend on the Sun for the energy that it produces because its energy comes from splitting atoms.  Which of the following types of energy, also does NOT depend upon the Sun?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Wave.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Wind.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  Tidal.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Hydroelectric.
+
+</P><P><INPUT onclick=Hint70() type=button value=" HINT " ></P></FORM>
+<P>
+71.)  Almost all the energy available on Earth comes, or has come, from the Sun.  Which of the following is NOT true for energy supplied from the Sun?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  It keeps the Earth's surface warm.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  It is responsible for the heat from within the Earth.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  It is stored in fossil fuels.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  It is used by green plants to grow.
+
+</P><P><INPUT onclick=Hint71() type=button value=" HINT " ></P></FORM>
+<P>
+72.)  Many types of power station are now connected up to the National Grid.  Which of the power stations listed below could NOT be started up quickly, if power was required by the National Grid at short notice?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Oil Fired.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Coal Fired.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  Nuclear.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Hydroelectric.
+
+</P><P><INPUT onclick=Hint72() type=button value=" HINT " ></P></FORM>
+
+
+<P>
+<A NAME="Non-Renewable Energy"></A>
+<H2>Non-Renewable Energy</H2>
+<P>
+
+
+
+
+<P>
+73.)  What is the main source of energy that we use in the United Kingdom?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Nuclear.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  Fossil.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Geothermal.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Wind.
+
+</P><P><INPUT onclick=Hint73() type=button value=" HINT " ></P></FORM>
+<P>
+74.)  Some types of power station produce waste gasses, such as sulphur dioxide, which can dissolve in rain drops to produce acid rain.  Which source of fuel, when used in a power station, can produce such emissions?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Only oil.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  Only oil and coal.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Oil, coal and gas.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Nuclear.
+
+</P><P><INPUT onclick=Hint74() type=button value=" HINT " ></P></FORM>
+<P>
+75.)  The Greenhouse Effect is caused by the release of carbon dioxide.  What energy resources will contribute to this effect?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Nuclear.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  All fossil fuels.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Only oil and coal.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Geothermal.
+
+</P><P><INPUT onclick=Hint75() type=button value=" HINT " ></P></FORM>
+<P>
+76.)  There are several environmental problems with the use of non-renewable fuels.  Which of the following is NOT true?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  There are no risks of major catastrophes when using nuclear power.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Nuclear waste is very dangerous and difficult to dispose of.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Coal mining makes a huge mess of the landscape.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Oil spillages cause many serious environmental problems.
+
+</P><P><INPUT onclick=Hint76() type=button value=" HINT " ></P></FORM>
+<P>
+77.)  Nuclear power stations now provide a significant proportion of our power needs.  Which of the statements below is NOT a problem associated with nuclear power stations?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  They cannot be started up and shut down quickly.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Decommissioning costs are very high.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Building costs are very high.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  Fuel costs are very high.
+
+</P><P><INPUT onclick=Hint77() type=button value=" HINT " ></P></FORM>
+<P>
+78.)  To prevent fossil fuels from running out so quickly, we can use more renewable sources of energy, and use less energy by being more efficient with it.  Which of the following methods will NOT save energy?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Insulate buildings better.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  Keep windows open.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  When not needed, turn lights and other electrical equipment off.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Drive fewer and smaller cars.
+
+</P><P><INPUT onclick=Hint78() type=button value=" HINT " ></P></FORM>> 
+
+
+<P>
+<A NAME="Renewable Energy"></A>
+<H2>Renewable Energy</H2>
+<P>
+
+
+
+<P>
+79.)  Which of the following statements is NOT true about renewable energy sources?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Initial costs are quite high.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Running costs are very low.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  They all provide a reliable power supply on demand.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  All but wood burning have no fuel costs.
+
+</P><P><INPUT onclick=Hint79() type=button value=" HINT " ></P></FORM>
+<P>
+80.)  A wind turbine has its own generator, so electricity is generated directly by the wind.  Which of the following is NOT true?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  5000 wind turbines will replace one coal fired power station.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  A wind farm covers a large area which will spoil the view of the landscape.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  A built up area is the most suitable site for a wind farm.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  They do not produce any power when the wind stops.
+
+</P><P><INPUT onclick=Hint80() type=button value=" HINT " ></P></FORM>
+<P>
+81.)  Hydroelectric power requires a high up reservoir, usually a flooded valley.  The water is made to flow out of the reservoir and into turbines, which then generate electricity.  Which of the following statements is correct about hydroelectric power stations?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  The reservoir can never dry up.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  There is no impact on the environment when a valley is flooded.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Running costs are very high.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  Can have an immediate response to increased demand in power.
+
+</P><P><INPUT onclick=Hint81() type=button value=" HINT " ></P></FORM>
+<P>
+82.)  Power stations with boilers are hard to shut down and start up again and so are kept running most of the time, even when demand is very low.  This gives rise to a surplus of electricity at night.  What type of power station can take this energy from the National Grid and store it for periods of peak demand?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Solar.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Tidal Barrage.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  Pumped Storage.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Hydroelectric.
+
+</P><P><INPUT onclick=Hint82() type=button value=" HINT " ></P></FORM>
+<P>
+83.)  Which of the following statements is NOT true about wave power?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Wave generators need to be located around the coast.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  The up and down motion of waves is used to drive a generator.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  Wave power is fairly reliable.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Wave generators spoil the view and are a hazard to boats.
+
+</P><P><INPUT onclick=Hint83() type=button value=" HINT " ></P></FORM>
+
+ 
+<P>
+<IMG SRC="Images/energy84.jpg">
+<P>
+84.)  Study the table carefully.  The tide rises and falls twice per day.  By trapping each high tide and allowing it to flow out through generators, tidal energy can be converted into electrical energy.  Which of the sites in the table would be most suitable for a tidal power station?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  A.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  B.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  C.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  D.
+
+</P><P><INPUT onclick=Hint84() type=button value=" HINT " ></P></FORM>
+<P>
+85.)  Geothermal energy uses heat from underground.  Which of the following is NOT true?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  A geothermal power station can be set up anywhere.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Most of the heat underground is due to the slow decay of radioactive elements, including uranium.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Water is pumped down to the hot rocks, which then returns as steam to drive a generator.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  The main drawback is the cost of drilling several kilometres down to the heat.
+
+</P><P><INPUT onclick=Hint85() type=button value=" HINT " ></P></FORM>
+<P>
+86.)  Wood burning involves the cultivation of fast growing trees, which are then harvested, chopped up and burnt in a power station furnace to produce electricity.  Which of the following statements is NOT true?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Wood burning does not cause a problem with the Greenhouse Effect.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Wood burning is not a reliable or plentiful source of energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Carbon dioxide released in the burning of the wood was removed when the trees grew in the first place.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Trees are grown as quickly as they are burnt and so will never run out.
+
+</P><P><INPUT onclick=Hint86() type=button value=" HINT " ></P></FORM>
+<P>
+87.)  Solar energy harnesses the energy from sunlight.  Which of the following is NOT true?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Solar cells will generate electric currents directly from sunlight.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  Solar power will provide energy at night.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Solar panels contain water pipes under a black surface, which absorbs heat radiation to heat the water.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  A solar furnace uses mirrors to concentrate light on one spot, creating high temperatures to produce steam.
+
+</P><P><INPUT onclick=Hint87() type=button value=" HINT " ></P></FORM>
+<P>
+88.)  Despite their high cost, solar cells can be a useful way of generating electricity.  The situations below are good applications for solar cells where a continuous 24 hour per day supply of electricity is needed. Which does not need the assistance of batteries?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Power for a satellite in orbit around the Earth.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Providing power for a buggy to be used on the Moon.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  Powering an interplanetary spaceship going from Earth to Mercury.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  A power supply for a farm in the Australian desert.
+
+</P><P><INPUT onclick=Hint88() type=button value=" HINT " ></P></FORM>
+<P>
+89.)  Non-renewable fuels are very polluting and are running out quickly.  Which of the following is NOT an advantage of using coal, oil, gas or nuclear energy?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  High power output.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Reliable output.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  There are no fuel costs.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  They do not use up much land.
+
+</P><P><INPUT onclick=Hint89() type=button value=" HINT " ></P></FORM>
+<P>
+90.)  Which of the following is NOT an advantage of using renewable energy?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Create no pollution.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  No fuel costs, except for wood burning.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Have minimal running costs.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  They all give a very reliable power output.
+
+</P><P><INPUT onclick=Hint90() type=button value=" HINT " ></P></FORM>> 
+
+
+
+<P>
+<A NAME="Extra Questions"></A>
+<H2>Extra Questions - some of these are beyond GCSE level and have not had the answers programmed</H2>
+<P>
+
+<P>
+91.)  Which device below most closely fits the following energy transfer?  Electrical Energy -> Kinetic Energy -> Thermal and Sound Energy.
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Electric Fan.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  Electric Drill.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Electric Oven.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Torch.
+
+</P><P><INPUT onclick=Hint91() type=button value=" HINT " ></P></FORM>
+<P>
+92.)  Harry is riding his bicycle on a level road when he stops pedalling and allows the bicycle to slow down and stop.  Which of the following correctly describes the energy change which happens after he stops pedalling?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Potential Energy to Chemical Energy.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  Kinetic Energy to Thermal Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Thermal Energy to Potential Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Chemical Energy to Kinetic Energy.
+
+</P><P><INPUT onclick=Hint92() type=button value=" HINT " ></P></FORM>
+<P>
+93.)  An electric fan transfers 35 Joules of energy per second.  If it transfers 350KJ of energy, how long was it left on for?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  7.2 seconds.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  120 seconds.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  10 seconds.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  Nearly 3 hours.
+
+</P><P><INPUT onclick=Hint93() type=button value=" HINT " ></P></FORM>
+<P>
+94.)  Which of the following is NOT a disadvantage of using renewable energy?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Large areas of land or water are required.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  The landscape is often spoilt by the site.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  No pollution.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Power will not always be delivered when required, mainly due to the weather.
+
+</P><P><INPUT onclick=Hint94() type=button value=" HINT " ></P></FORM>
+
+ 
+<P>
+<IMG SRC="Images/energy95.jpg">
+<P>
+95.)  The diagram shows the cylinder block of a motorcycle engine.  The block gets very hot and must be cooled.  Which of the following changes would help the cooling process?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Reducing the air flow.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Removing the fins.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Polishing the block until it is shiny.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  Giving the block a dull black finish.
+
+</P><P><INPUT onclick=Hint95() type=button value=" HINT " ></P></FORM>
+<P>
+96.)  When a car stops, it uses a braking force of 3000 Newtons.  If the brakes have to do 24KJ (24,000 Joules) of work for the car to come to rest, how far does it travel from the moment when the brakes are applied, to when it has stopped?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  125 Metres.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  0.125 Metres.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  0.008 Metres.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  8 Metres.
+
+</P><P><INPUT onclick=Hint96() type=button value=" HINT " ></P></FORM>
+<P>
+97.)  A light bulb is supplied with 5,200J of electrical energy.  Only 1,000J of light energy is emitted.  What is the efficiency of the light bulb?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  520%
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  5.2%
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  19%
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  0.19%
+
+</P><P><INPUT onclick=Hint97() type=button value=" HINT " ></P></FORM>
+<P>
+98.)  When a hammer falls and strikes the head of a nail, the head of the nail will get hotter.  Which of these correctly describes the energy changes that occur?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Potential Energy -> Sound and Thermal Energy -> Kinetic Energy.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  Potential Energy -> Kinetic Energy -> Sound and Thermal Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Kinetic Energy -> Sound and Thermal Energy -> Potential Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Kinetic Energy -> Potential Energy -> Sound and Thermal Energy.
+
+</P><P><INPUT onclick=Hint98() type=button value=" HINT " ></P></FORM>
+<P>
+99.)  A golf ball has a mass of 0.05kg.  If when hit, it is given 250J of kinetic energy, how fast does it travel?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  10,000m/s.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  3.2m/s.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  10m/s.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  100m/s.
+
+</P><P><INPUT onclick=Hint99() type=button value=" HINT " ></P></FORM>
+
+<P>
+100.) In a hydroelectric power station, a volume of water of mass 500Kg falls through a vertical distance of 50m into the turbines of a generator.  If gravity is 10N/kg, what is the potential energy of this volume of water.
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  250 kJ
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  25 kJ
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  250 J
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  25 J
+
+</P><P><INPUT onclick=Hint100() type=button value=" HINT " ></P></FORM>
+
+<P>
+101.) A car engine is cooled by passing water around the engine block and then through a radiator.  The radiator then transfers heat from the water to the air.  Which of the following would cause the radiator to transfer heat to the surroundings at a greater rate?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  Paint the radiator dull black.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Paint the radiator bright white.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Polish the radiator and paint white.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Polish the radiator and leave unpainted.
+
+</P><P><INPUT onclick=Hint101() type=button value=" HINT " ></P></FORM>
+
+<P>
+102.) Some cargo of mass 2.5 tonnes gains a maximum 1,500,000 Joules in potential energy above the quayside whilst being loaded onto a ship.  If the deck of the ship is 55 metres above the quayside where the cargo is initially, what is the greatest height that the cargo reaches above the deck of the ship?
+
+</P><FORM><P><INPUT onclick=AlertBox3() type=button value="a" >  115 Metres.
+</P><P><INPUT onclick=AlertBox3() type=button value="b" >  60 Metres.
+</P><P><INPUT onclick=AlertBox3() type=button value="c" >  55 Metres.
+</P><P><INPUT onclick=AlertBox3() type=button value="d" >  5 Metres.
+
+</P><P><INPUT onclick=Hint102() type=button value=" HINT " ></P></FORM>
+
+<P>
+103.) An energy saving light bulb is 83% efficient.  If it is supplied with 1,200J of electrical energy, how much light energy is emitted?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  996J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  1116J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  1446J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  99600J.
+
+</P><P><INPUT onclick=Hint103() type=button value=" HINT " ></P></FORM>
+
+<P>
+104.) Which of the options below correctly shows the energy changes involved when a television is on?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  Electrical Energy -> Light and Sound Energy -> Thermal Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  Electrical Energy -> Thermal Energy -> Light and Sound Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  Light and Sound Energy -> Thermal Energy -> Electrical Energy.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  Thermal Energy -> Light and Sound Energy -> Electrical Energy.
+
+</P><P><INPUT onclick=Hint104() type=button value=" HINT " ></P></FORM>
+
+<P>
+105.) A fisherman has a bite on his fishing line.  He manages to reel in 15 metres of line before it snaps.  If the fisherman does 1.8KJ of work before the fish gets away, what force did the fish exert?
+
+</P><FORM><P><INPUT onclick=AlertBox3() type=button value="a" >  120N.
+</P><P><INPUT onclick=AlertBox3() type=button value="b" >  0.12N.
+</P><P><INPUT onclick=AlertBox3() type=button value="c" >  27000N.
+</P><P><INPUT onclick=AlertBox3() type=button value="d" >  27N.
+
+</P><P><INPUT onclick=Hint105() type=button value=" HINT " ></P></FORM>
+
+<P>
+106.) An electric oven has a power rating of 1.74 kilowatts.  If it is left on for 3 hours, how much energy does it transfer?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  5.22 joules.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  313.2 joules.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  5.22 kilowatthours.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  313.2 kilowatthours.
+
+</P><P><INPUT onclick=Hint106() type=button value=" HINT " ></P></FORM>
+
+<P>
+107.) A hydroelectric power station has a dam which holds 500,000,000Kg of water.  If the base of the dam is 200m above the turbines at the power station, estimate how much potential energy is stored in the water?
+
+</P><FORM><P><INPUT onclick=AlertBox3() type=button value="a" >  1 x 10^12 Joules.
+</P><P><INPUT onclick=AlertBox3() type=button value="b" >  1 x 10^11 Joules.
+</P><P><INPUT onclick=AlertBox3() type=button value="c" >  1 x 10^6 Joules.
+</P><P><INPUT onclick=AlertBox3() type=button value="d" >  1 x 10^3 Joules.
+
+</P><P><INPUT onclick=Hint107() type=button value=" HINT " ></P></FORM>
+
+<P>
+108.) A motorcycle of mass 950Kg accelerates to 15m/s in 8 seconds.  What is its power output?
+
+</P><FORM><P><INPUT onclick=AlertBox3() type=button value="a" >  2027 Watts.
+</P><P><INPUT onclick=AlertBox3() type=button value="b" >  13359 Watts.
+</P><P><INPUT onclick=AlertBox3() type=button value="c" >  3800 Watts.
+</P><P><INPUT onclick=AlertBox3() type=button value="d" >  891 Watts.
+
+</P><P><INPUT onclick=Hint108() type=button value=" HINT " ></P></FORM>
+
+<P>
+109.) An electric nail brush is supplied with 2,000J of energy, but only 1,600J is useful work done.  What is the efficiency of the nail brush?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  4/5
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  5/4
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  0/8
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  1/25
+
+</P><P><INPUT onclick=Hint109() type=button value=" HINT " ></P></FORM>
+
+<P>
+110.) A car travelling at 25m/s has 625KJ of kinetic energy.  What is its mass?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  2000Kg.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  2000g.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  50000Kg.
+</P><P><INPUT onclick=AlertBox3() type=button value="d" >  50Kg.
+
+</P><P><INPUT onclick=Hint110() type=button value=" HINT " ></P></FORM>
+
+<P>
+111.) 10Kg of water falls from the top of a waterfall of height 300m into a pool below.  What is its change of energy?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  30,000J gain.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  No change.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  3,000J loss.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  3,000J gain.
+
+</P><P><INPUT onclick=Hint111() type=button value=" HINT " ></P></FORM>
+
+<P>
+112.) A steel ball is dropped from a building that is 100m high.  When it is 25m from the ground, what is the ratio of the ball's potential energy to its kinetic energy?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  3 : 1
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  1 : 3
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  4 : 1
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  1 : 4
+
+</P><P><INPUT onclick=Hint112() type=button value=" HINT " ></P></FORM>
+
+<P>
+113.) You get into a lift and go from the ground to the fifth floor, a vertical rise of 30m.  If you have a mass of 65Kg, how much potential energy do you gain?
+(gravity = 10N/kg)
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  19500J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  1950J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  95J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  35J.
+
+</P><P><INPUT onclick=Hint113() type=button value=" HINT " ></P></FORM>
+
+<P>
+114.) A person weighing 400N runs up some stairs.  It takes her 6s to climb a vertical height of 8m.  What is the average power she produces?
+
+</P><FORM><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="a" >  533W.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  300W.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  8.33W.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  0.12W.
+
+</P><P><INPUT onclick=Hint114() type=button value=" HINT " ></P></FORM>
+<P>
+115.) A high jumper weighs 500N.  During a jump she effectively raises her centre of gravity through 2.5m.  How much work does she do?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  12500J.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  1250J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  502.5J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  497.5J.
+
+</P><P><INPUT onclick=Hint115() type=button value=" HINT " ></P></FORM>
+
+ 
+<P>
+<IMG SRC="Images/energy116.jpg">
+<P>
+116.) Two tanks are connected via a pipe as in the diagram.  The tank on the left is filled to a depth of 2m with 30Kg of water.  When the tap is opened, the right hand tank fills with water until both tanks are at the same level.  How much potential energy is transferred when this happens?
+(gravity = 10N/kg)
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  600J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  300J.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  150J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  75J.
+
+</P><P><INPUT onclick=Hint116() type=button value=" HINT " ></P></FORM>
+
+<P>
+117.) A high jumper weighs 600N.  During a jump he effectively raises his centre of gravity through 2m.  How much work does he do?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  12000J.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  1200J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  600J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  300J.
+
+</P><P><INPUT onclick=Hint117() type=button value=" HINT " ></P></FORM>
+
+<P>
+118.) A man having a mass of 60Kg travels up an escalator which lifts him through a vertical height of 10m in 25s.  What is his increase in gravitational potential energy?
+(gravity = 10N/kg)
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  24J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  250J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  600J.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="d" >  6000J.
+
+</P><P><INPUT onclick=Hint118() type=button value=" HINT " ></P></FORM>
+
+<P>
+119.) In an experiment to measure your power output, you climb up some stairs.  Which of these do you NOT need in order to calculate your power output?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  Your weight.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="b" >  Your speed.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="c" >  The height through which you climb.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  The time you take.
+
+</P><P><INPUT onclick=Hint119() type=button value=" HINT " ></P></FORM>
+
+<P>
+120.) If you push a wheelbarrow with a force of 180N, how much work do you do when you move it 4m?
+
+</P><FORM><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="a" >  180J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="b" >  45J.
+</P><P><INPUT onclick={AlertBox1();this.disabled=true;} type=button value="c" >  720J.
+</P><P><INPUT onclick={AlertBox2();this.disabled=true;} type=button value="d" >  184J.
+
+</P><P><INPUT onclick=Hint120() type=button value=" HINT " ></P></FORM>
+
+
+
+
+
+  </div>
+
+
+
+  <div id="sidebar2"></div>
+
+  <div id="fixedright">
+<p><input type=button value="Reset Test" onClick="resetScore()" class="bigbutton"></p>
+<p class="inline marginleft">
+  Right:
+    <p id="correct" class="inline">0</p><br />
+  <p class="inline marginleft">
+  Wrong:
+    <p id="wrong" class="inline">0</p>
+  <p class="inline marginleft">
+  Attempts:
+    <p id="attempt" class="inline">0</p>
+</p></p></p>
+  </div>
+
+<div id="footer" name="bottom">
+<p>Site Designed by Alexander North</p>
+</div>
+
+</div>
+
+  </div>
+</body>
+</html>

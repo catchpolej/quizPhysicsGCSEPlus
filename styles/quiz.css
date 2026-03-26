@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+a{
+	color: #Fefefe;
+    padding: 2px;
+}
+
+a:hover{
+		color: #000000;
+		background-color: #989898;
+        background-color: #FFFFFF;
+        padding: 2px;
+}
+
+#navtop {
+	position: fixed;
+	left: 10px;
+	width: 8%;
+	white-space: normal;
+	top: 50%;
+}
+
+#navtop p {
+	font-size: 11pt;
+}
+
+#fixedright {
+	position: fixed;
+	right: 4%;
+	width: 10%;
+	white-space: normal;
+	top: 50%;
+	margin-top: -127px;
+	margin-right: -33px;
+}
+#fixedright p {
+	
+	font-size: 11pt;
+	padding: 2px;
+}
+
+#content p {
+	font-weight: normal;
+	font-size: 12pt;
+}
+
+.cont{
+	padding-left: 5px;
+}
+
+.elecnav {
+	margin-top: -215px;
+}
+
+.enernav{
+	margin-top: -289.5px;
+}
+
+.forcnav {
+	margin-top: -245px;
+}
+
+.magnnav {
+	margin-top: -156px;
+}
+.radinav{
+	margin-top: -253px
+}
+.spacnav {
+	margin-top: -163px;
+}
+.wavenav {
+	margin-top: -222.5px;
+}

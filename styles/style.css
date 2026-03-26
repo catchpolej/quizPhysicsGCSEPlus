@@ -1,0 +1,225 @@
+
+/* Homepage */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+a {
+/* Menu text  */
+    text-decoration: none;
+   /* color: #002f77; */
+	color: #0050c9;
+    font-family: 'Open Sans', sans-serif;
+     -o-transition:color .5s ease-out, background 5s ease-in;
+  -ms-transition:color .5s ease-out, background 5s ease-in;
+  -moz-transition:color .5s ease-out, background 5s ease-in;
+  -webkit-transition:color .5s ease-out, background 5s ease-in;
+}
+
+. {
+    invert: 100%;
+}
+
+.nav {
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    font-weight: 700;
+}
+/*
+
+.nav li {
+    display:inline-block;
+}
+
+.nav a {
+    display:inline-block;
+    padding:15px;
+}
+
+*/
+
+         
+a:hover {
+	/*    color: #0050c9; */
+	color: #00a0f9
+}
+
+body {
+    margin: 0;
+}
+
+html { 
+  background: url(Images/3_122_e.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section {
+    background-color: white;
+    height: 550px;
+    
+}
+
+#down {
+    -webkit-filter: invert(100%);
+    display: block;
+    text-align: center;
+    -o-transition:color .4s ease-out, background 3s ease-in;
+  -ms-transition:color .4s ease-out, background 3s ease-in;
+  -moz-transition:color .4s ease-out, background 3s ease-in;
+  -webkit-transition:color .4s ease-out, background 3s ease-in;
+}
+
+.container {
+    padding-bottom: 20px;
+}
+
+#down:hover {
+    color: #474747
+}
+    
+p {
+	/* paragraph text (text under main picture */
+    font-family: 'Raleway', sans-serif;
+    color: #002f77;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+    
+#sign {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+    
+#rm {
+    margin-top: 5px;
+}
+    
+#logo {
+    float: right;
+    width: 2.7em;
+    height: 2.7em;
+    margin-right: 10px;
+    margin-top: 2px
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    margin: 0;
+    margin-top: 250px;
+    padding-bottom: 200px;
+    font-weight: 700;
+    z-index: -100
+}
+ 
+
+.nav ul ul ul {
+  top:0;
+  left:100%
+}
+   
+*/    
+    
+ul {
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+ul li {
+  font-family: 'Raleway', sans-serif;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  background: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+ul li:hover {
+  background: #f4f4f4;
+  color: #fff;
+}
+
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+
+ul li ul li ul{
+  padding: 0;
+  position: absolute;
+  top: 0px;
+  left: 154px;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+
+ul li ul li { 
+  background: #131440; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+
+ul li ul li:hover { background: #353877; }
+
+ul li:hover > ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
